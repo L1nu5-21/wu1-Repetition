@@ -1,0 +1,92 @@
+/* Body */
+
+body {
+    margin: 0%;
+    background-color: rgb(98, 35, 35);
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+}
+
+/* Header */
+
+header {
+    background-color: darksalmon;
+    width: min(80ch, 100vW - 2rem);
+    margin: auto;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+    display: flex;
+}
+
+a>img {
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+}
+
+.nav {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+nav>ul {
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 1rem;
+    display: flex;
+    padding: 0;
+}
+
+/* Links */
+
+a:link {
+    color: rgb(99, 204, 218);
+}
+
+a:visited {
+    color: rgb(14, 151, 164);
+}
+
+a:hover {
+    color: rgb(186, 249, 255);
+}
+
+/* Main */
+
+.container {
+    
+    width: min(80ch, 100vW - 2rem);
+    margin: auto;
+    width: 50%;
+}
+
+/* Article */
+
+article>img {
+    width: 100%;
+    height: auto;
+}
+
+.blog__post {
+}
+
+/* Footer */
+
+footer {
+    background-color: darksalmon;
+    width: min(80ch, 100vW - 2rem);
+    margin: auto;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+    display: flex;   
+}
